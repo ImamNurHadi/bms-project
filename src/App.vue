@@ -6,9 +6,12 @@
     </div>
 
     <div class="link">
-      | <router-link to="/rumah" class="rute">Home</router-link>  |
+      | <router-link to="/dashboard" class="rute">Home</router-link>  |
         <router-link to="/mtt" class="rute">Team</router-link>| 
       <router-link to="/about" class="rute">Karya</router-link>
+      | 
+      <router-link to="/about" class="rute">Karya</router-link>
+      
     </div>
   </div>
 

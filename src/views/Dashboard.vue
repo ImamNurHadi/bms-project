@@ -96,7 +96,7 @@
     {
       display: flex;
       flex-direction: column;
-      background-color: aquamarine;
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
       width: 90%;
       height: 70vh;
       align-items: center;
@@ -121,7 +121,8 @@
     {
       display: flex;
       flex-direction: row;
-      background-color: red;
+      /* background-color: red; */
+       box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
       width: 90%;
       height: 50vh;
       justify-content: center;
@@ -129,7 +130,7 @@
     }
 
     .foto:hover {
-  background-color: black; /* Ganti dengan warna latar belakang yang Anda inginkan */
+  background-color: rgba(40, 40, 40, 1); /* Ganti dengan warna latar belakang yang Anda inginkan */
   /* Tambahan properti CSS lainnya jika diperlukan */
 }
 
@@ -137,7 +138,7 @@
   display: flex;
   position: relative;
   flex-direction: column; /* Mengubah flex-direction menjadi column */
-  background-color: wheat;
+  background-color: rgba(25, 20, 20, 1);
   width: 30vh;
   height: 35vh;
   gap: 5vh;

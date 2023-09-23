@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import dashboard from '../views/Home.vue'
 import HomeView from '../views/HomeView.vue'
 import MeetTheTeam from '../views/MeetTheTeam.vue'
-import Rumah from '../views/Rumah.vue'
+import Dashboard from '../views/Dashboard.vue'
 
 
 const routes = [
@@ -23,7 +23,7 @@ const routes = [
     path: '/mtt', name:'mtt', component: MeetTheTeam
   },
   {
-    path: '/rumah', name: 'rumah', component: Rumah
+    path: '/dashboard', name: 'dashboard', component: Dashboard
   },
   
 ]
